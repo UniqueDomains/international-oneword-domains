@@ -72,17 +72,17 @@ print(df.head())
 | mix.international       | premium   | $123.75   | $123.75       | 66             | 45     | 3      | name.com        |
 | custom.international    | available | $14.99    | $41.99        | 110            | 39     | 6      | name.com        |
 | domain.international    | resell    | —         | —             | 80             | 64     | 6      | Sav.com, LLC    |
-| order.international     | premium   | $82.50    | $82.50        | 78             | 41     | 5      | name.com        |
-| shared.international    | available | $14.99    | $41.99        | 70             | 39     | 6      | name.com        |
+| order.international     | premium   | $82.50    | $82.50        | 78             | 40     | 5      | name.com        |
+| party.international     | available | $14.99    | —             | 86             | 38     | 5      | name.com        |
 | code.international      | resell    | —         | —             | 72             | 61     | 4      | Dynadot Inc     |
 | review.international    | premium   | $42.90    | $42.90        | 94             | 39     | 6      | namecheap       |
-| party.international     | available | $14.99    | —             | 86             | 38     | 5      | name.com        |
-| open.international      | resell    | —         | —             | 106            | 60     | 4      | Spaceship, Inc. |
-| check.international     | premium   | $123.75   | $123.75       | 76             | 38     | 5      | name.com        |
 | cozy.international      | available | $14.99    | $41.99        | 110            | 37     | 4      | name.com        |
+| open.international      | resell    | —         | —             | 106            | 60     | 4      | Spaceship, Inc. |
+| check.international     | premium   | $123.75   | $123.75       | 76             | 37     | 5      | name.com        |
+| bold.international      | available | $14.99    | —             | 72             | 37     | 4      | name.com        |
 | mail.international      | resell    | —         | —             | 94             | 59     | 4      | Epik LLC        |
 | like.international      | premium   | $82.50    | $82.50        | 84             | 35     | 4      | name.com        |
-| bold.international      | available | $14.99    | —             | 72             | 37     | 4      | name.com        |
+| shared.international    | available | $14.99    | $41.99        | 70             | 37     | 6      | name.com        |
 | data.international      | resell    | —         | —             | 70             | 56     | 4      | Spaceship, Inc. |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
