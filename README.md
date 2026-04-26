@@ -1,22 +1,22 @@
-# Available .INTERNATIONAL One-Word Domains (8,390)
+# Available .INTERNATIONAL One-Word Domains (10,699)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
-  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-8%2C391%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-8%2C390%20domains-6f42c1">
+  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-10%2C699%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
 
-Daily-updated dataset of available and resale .international one-word domains from Unique Domains.
+Daily-updated public extract of available and resale .international one-word domains from Unique Domains.
 
-> **Note:** this repository currently mirrors the full live catalog for this exact search.
-> Unique Domains counts can still change as the search refreshes.
+> **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
+> The full live catalog for this exact search currently contains **10,699 domains** on the canonical page below.
 
-**Public extract:** 8,391 rows · **Live catalog:** 8,390 domains
+**Public extract:** 1,000 rows · **Live catalog:** 10,699 domains
 
-**Last updated:** 2026-04-13  
+**Last updated:** 2026-04-26  
 **Canonical page:** `https://unique.domains/domains/tld/international`  
 **Best for:** founders, investors, studios
 
@@ -43,8 +43,8 @@ This repository is the public extract for Unique Domains' .INTERNATIONAL one-wor
 
 ### Files
 
-- `international.csv` — public CSV extract (8,391 rows)
-- `international.json` — public JSON extract (8,391 rows)
+- `international.csv` — public CSV extract (1,000 rows)
+- `international.json` — public JSON extract (1,000 rows)
 - `DATA_DICTIONARY.md` — field definitions for the exported files
 - `METHODOLOGY.md` — scope, refresh policy, and caveats
 - `CHANGELOG.md` — latest snapshot metadata
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain                  | status    | ask_price | renewal_price | attractiveness | demand | length | registrar       |
-| ----------------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------------- |
-| easy.international      | available | $14.99    | $41.99        | 128            | 62     | 4      | name.com        |
-| chip.international      | resell    | $14.99    | $41.99        | 76             | 29     | 4      | Sav.com, LLC    |
-| athletics.international | premium   | $85.80    | $85.80        | 69             | 52     | 9      | namecheap       |
-| contact.international   | available | $14.99    | —             | 84             | 43     | 7      | name.com        |
-| boss.international      | resell    | —         | —             | 76             | 73     | 4      | Spaceship, Inc. |
-| mix.international       | premium   | $123.75   | $123.75       | 66             | 45     | 3      | name.com        |
-| custom.international    | available | $14.99    | $41.99        | 110            | 39     | 6      | name.com        |
-| domain.international    | resell    | —         | —             | 80             | 64     | 6      | Sav.com, LLC    |
-| order.international     | premium   | $82.50    | $82.50        | 78             | 40     | 5      | name.com        |
-| party.international     | available | $14.99    | —             | 86             | 38     | 5      | name.com        |
-| code.international      | resell    | —         | —             | 72             | 61     | 4      | Dynadot Inc     |
-| review.international    | premium   | $42.90    | $42.90        | 94             | 39     | 6      | namecheap       |
-| cozy.international      | available | $14.99    | $41.99        | 110            | 37     | 4      | name.com        |
-| open.international      | resell    | —         | —             | 106            | 60     | 4      | Spaceship, Inc. |
-| check.international     | premium   | $123.75   | $123.75       | 76             | 37     | 5      | name.com        |
-| bold.international      | available | $14.99    | —             | 72             | 37     | 4      | name.com        |
-| mail.international      | resell    | —         | —             | 94             | 59     | 4      | Epik LLC        |
-| like.international      | premium   | $82.50    | $82.50        | 84             | 35     | 4      | name.com        |
-| shared.international    | available | $14.99    | $41.99        | 70             | 37     | 6      | name.com        |
-| data.international      | resell    | —         | —             | 70             | 56     | 4      | Spaceship, Inc. |
+| domain                     | status    | ask_price | renewal_price | attractiveness | demand | length | registrar         |
+| -------------------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ----------------- |
+| aliens.international       | available | $14.99    | —             | 56             | 35     | 6      | name.com          |
+| global.international       | resell    | —         | —             | 86             | 51     | 6      | Porkbun LLC       |
+| SanDiego.international     | premium   | $118.80   | $118.80       | 74             | 29     | 9      | namesilo          |
+| construction.international | available | $14.99    | —             | 70             | 31     | 12     | name.com          |
+| Tools.international        | resell    | —         | —             | 56             | 40     | 5      | Sav.com, LLC - 44 |
+| tips.international         | premium   | $82.50    | —             | 80             | 26     | 4      | name.com          |
+| photos.international       | available | $14.99    | —             | 54             | 28     | 6      | name.com          |
+| WiFi.international         | resell    | —         | —             | 83             | 37     | 5      | NameCheap, Inc.   |
+| has.international          | premium   | $123.75   | —             | 60             | 26     | 3      | name.com          |
+| Keith.international        | available | $40.48    | —             | 66             | 25     | 5      | namecheap         |
+| teams.international        | resell    | —         | —             | 62             | 32     | 5      | Sav.com, LLC      |
+| holidays.international     | premium   | $118.80   | $118.80       | 78             | 23     | 8      | namesilo          |
+| shops.international        | available | $14.99    | —             | 64             | 24     | 5      | name.com          |
+| Women.international        | resell    | —         | —             | 77             | 29     | 5      | Dynadot Inc       |
+| results.international      | premium   | $82.50    | —             | 59             | 22     | 7      | name.com          |
+| rekt.international         | available | $14.99    | —             | 40             | 24     | 4      | name.com          |
+| trades.international       | resell    | —         | —             | 71             | 26     | 6      | NameCheap, Inc.   |
+| vans.international         | premium   | $118.80   | $118.80       | 55             | 17     | 4      | namesilo          |
+| motorsport.international   | available | $14.99    | —             | 74             | 23     | 10     | name.com          |
+| traders.international      | resell    | —         | —             | 60             | 26     | 7      | Dynadot Inc       |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                                   |
 | ----------------------- | ------------------------------------------------ |
-| 8,391-row public sample | 8,390 live domains                               |
+| 1,000-row public sample | 10,699 live domains                              |
 | Static CSV / JSON       | live search and daily refresh                    |
 | Basic exported fields   | deeper price, demand, risk, and workflow context |
 | No persistence          | Radar, saved search, and alerts                  |
@@ -143,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .INTERNATIONAL One-Word Domains*. Version 2026-04-13. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .INTERNATIONAL One-Word Domains*. Version 2026-04-26. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
