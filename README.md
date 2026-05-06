@@ -1,10 +1,10 @@
-# Available .INTERNATIONAL One-Word Domains (11,206)
+# Available .INTERNATIONAL One-Word Domains (11,212)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
   <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-11%2C206%20domains-6f42c1">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-11%2C212%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -12,11 +12,11 @@
 Daily-updated public extract of available and resale .international one-word domains from Unique Domains.
 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **11,206 domains** on the canonical page below.
+> The full live catalog for this exact search currently contains **11,212 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 11,206 domains
+**Public extract:** 1,000 rows · **Live catalog:** 11,212 domains · **Median ask:** $18.21 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-01  
+**Last updated:** 2026-05-06  
 **Canonical page:** `https://unique.domains/domains/tld/international`  
 **Best for:** founders, investors, studios
 
@@ -64,6 +64,15 @@ print(df.head())
 
 | domain                     | status    | ask_price | renewal_price | attractiveness | demand | length | registrar         |
 | -------------------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ----------------- |
+| ladies.international       | available | $14.99    | —             | 80             | 17     | 6      | name.com          |
+| forces.international       | available | $14.99    | —             | 82             | 12     | 6      | name.com          |
+| edamame.international      | available | $14.99    | —             | 80             | 9      | 7      | name.com          |
+| gearup.international       | available | $14.99    | —             | 80             | 16     | 7      | name.com          |
+| playon.international       | available | $14.99    | —             | 80             | 14     | 7      | name.com          |
+| toneup.international       | available | $14.99    | —             | 80             | 5      | 7      | name.com          |
+| stirup.international       | available | $14.99    | —             | 82             | 3      | 7      | name.com          |
+| messages.international     | available | $14.99    | —             | 80             | 16     | 8      | name.com          |
+| rumcake.international      | available | $14.99    | —             | 81             | 3      | 8      | name.com          |
 | construction.international | available | $14.99    | —             | 70             | 31     | 12     | name.com          |
 | global.international       | resell    | —         | —             | 86             | 52     | 6      | Porkbun LLC       |
 | SanDiego.international     | premium   | $118.80   | $118.80       | 74             | 29     | 9      | namesilo          |
@@ -75,15 +84,6 @@ print(df.head())
 | has.international          | premium   | $123.75   | —             | 60             | 26     | 3      | name.com          |
 | Keith.international        | available | $40.48    | —             | 66             | 25     | 5      | namecheap         |
 | trades.international       | resell    | —         | —             | 71             | 26     | 6      | NameCheap, Inc.   |
-| holidays.international     | premium   | $118.80   | $118.80       | 78             | 23     | 8      | namesilo          |
-| shops.international        | available | $14.99    | —             | 64             | 24     | 5      | name.com          |
-| traders.international      | resell    | —         | —             | 60             | 26     | 7      | Dynadot Inc       |
-| results.international      | premium   | $82.50    | —             | 59             | 22     | 7      | name.com          |
-| rekt.international         | available | $14.99    | —             | 40             | 24     | 4      | name.com          |
-| sites.international        | resell    | —         | —             | 53             | 26     | 5      | GoDaddy.com, LLC  |
-| webs.international         | premium   | $118.80   | $118.80       | 56             | 21     | 4      | namesilo          |
-| motorsport.international   | available | $14.99    | —             | 74             | 23     | 10     | name.com          |
-| pestcontrol.international  | resell    | —         | —             | 74             | 18     | 12     | GoDaddy.com, LLC  |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -91,13 +91,13 @@ These rows are selected to show a more legible mix of visible asks, resale conte
 
 You are seeing the public sample. Unique Domains keeps the exact search context and adds saved workflows, deeper filters, and alerting.
 
-| GitHub extract          | Unique Domains                                   |
-| ----------------------- | ------------------------------------------------ |
-| 1,000-row public sample | 11,206 live domains                              |
-| Static CSV / JSON       | live search and daily refresh                    |
-| Basic exported fields   | deeper price, demand, risk, and workflow context |
-| No persistence          | Radar, saved search, and alerts                  |
-| No founder workflow     | Project, shortlist, and next-step workflow       |
+| GitHub extract          | Unique Domains                             |
+| ----------------------- | ------------------------------------------ |
+| 1,000-row public sample | 11,212 live domains                        |
+| Static CSV / JSON       | live search and daily refresh              |
+| Basic exported fields   | 0 high-demand names under $2,500           |
+| No persistence          | Radar, saved search, and alerts            |
+| No founder workflow     | Project, shortlist, and next-step workflow |
 
 If this sample already feels useful, Unique Domains is where the exact search becomes a workflow.
 
@@ -120,13 +120,12 @@ See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
 ## ⚠️ Methodology and caveats
 
-This repository follows the exact public search represented by the canonical page above.
+This selection is defined by a single trait: every domain is a one-word name on .international. That creates a broad mix, from generic words such as emoji.international and jewels.international to more ambiguous terms such as barup.international. For founders, the main question is whether the word is clear, memorable, and credible with a global extension. For investors, the key test is whether the ask leaves room for a sensible spread after renewal costs and resale friction. Be more selective with names that resemble major brands, and favor words that are easy to say, easy to spell, and commercially legible at a glance.
 
-- This repository is a public extract, not the full live catalog.
-- Counts, prices, and statuses can change over time.
-- Scores are decision-support signals, not guarantees of resale value.
-- Trademark, SEO, and risk signals should be treated as screening inputs, not legal or specialist advice.
-- Unique Domains contains deeper filters, monitoring, and decision workflows than this public extract.
+- All results are one-word domains on .international
+- Median ask across this selection is 18.21
+- Clear generic words usually carry broader appeal
+- Avoid obvious trademark conflicts like brand matches
 
 See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 
@@ -143,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .INTERNATIONAL One-Word Domains*. Version 2026-05-01. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .INTERNATIONAL One-Word Domains*. Version 2026-05-06. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
