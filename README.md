@@ -14,10 +14,10 @@ Daily-updated public extract of available and resale .international one-word dom
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
 > The full live catalog for this exact search currently contains **11,220 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 11,220 domains · **Median ask:** $18.20 · **High-demand under $2,500:** 0
+**Public extract:** 1,000 rows · **Live catalog:** 11,220 domains · **Median ask:** $18.55 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-27  
-**Canonical page:** `https://unique.domains/domains/tld/international`  
+**Last updated:** 2026-07-07
+**Canonical page:** `https://unique.domains/domains/tld/international`
 **Best for:** founders, investors, studios
 
 ---
@@ -43,13 +43,13 @@ This repository is the public extract for Unique Domains' .INTERNATIONAL one-wor
 
 ### Files
 
-- `international.csv` — public CSV extract (1,000 rows)
-- `international.json` — public JSON extract (1,000 rows)
-- `DATA_DICTIONARY.md` — field definitions for the exported files
-- `METHODOLOGY.md` — scope, refresh policy, and caveats
-- `CHANGELOG.md` — latest snapshot metadata
-- `CITATION.cff` — machine-readable dataset citation metadata
-- `LICENSE` — terms for the public extract
+- `international.csv`, public CSV extract (1,000 rows)
+- `international.json`, public JSON extract (1,000 rows)
+- `DATA_DICTIONARY.md`, field definitions for the exported files
+- `METHODOLOGY.md`, scope, refresh policy, and caveats
+- `CHANGELOG.md`, latest snapshot metadata
+- `CITATION.cff`, machine-readable dataset citation metadata
+- `LICENSE`, terms for the public extract
 
 ## 🧭 Quick start
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain                     | status    | ask_price | renewal_price | attractiveness | demand | length | registrar         |
-| -------------------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ----------------- |
-| ladies.international       | available | $14.99    | —             | 80             | 17     | 6      | name.com          |
-| forces.international       | available | $14.99    | —             | 82             | 12     | 6      | name.com          |
-| popup.international        | available | $14.99    | —             | 84             | 28     | 6      | name.com          |
-| edamame.international      | available | $14.99    | —             | 80             | 9      | 7      | name.com          |
-| gearup.international       | available | $14.99    | —             | 80             | 16     | 7      | name.com          |
-| playon.international       | available | $14.99    | —             | 80             | 14     | 7      | name.com          |
-| toneup.international       | available | $14.99    | —             | 80             | 5      | 7      | name.com          |
-| stirup.international       | available | $14.99    | —             | 82             | 3      | 7      | name.com          |
-| messages.international     | available | $14.99    | —             | 80             | 16     | 8      | name.com          |
-| construction.international | available | $14.99    | —             | 70             | 31     | 12     | name.com          |
-| global.international       | resell    | —         | —             | 86             | 52     | 6      | Porkbun LLC       |
-| SanDiego.international     | premium   | $118.80   | $118.80       | 74             | 29     | 9      | namesilo          |
-| cams.international         | available | $14.99    | —             | 52             | 29     | 4      | name.com          |
-| Tools.international        | resell    | —         | —             | 56             | 40     | 5      | Sav.com, LLC - 44 |
-| tips.international         | premium   | $82.50    | —             | 80             | 26     | 4      | name.com          |
-| teams.international        | resell    | —         | —             | 62             | 32     | 5      | Sav.com, LLC      |
-| has.international          | premium   | $123.75   | —             | 60             | 26     | 3      | name.com          |
-| photos.international       | available | $14.99    | —             | 54             | 28     | 6      | name.com          |
-| trades.international       | resell    | —         | —             | 71             | 26     | 6      | NameCheap, Inc.   |
-| holidays.international     | premium   | $118.80   | $118.80       | 78             | 23     | 8      | namesilo          |
+| domain                  | status    | ask_price | renewal_price | attractiveness | demand | length | registrar        |
+| ----------------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------- |
+| christmas.international | premium   | $118.80   | $118.80       | high           | low    | 9      | namesilo         |
+| one.international       | resell    | —         | —             | high           | medium | 3      | Spaceship, Inc.  |
+| room.international      | premium   | $78.54    | $78.54        | high           | low    | 4      | namesilo         |
+| nothing.international   | available | $14.99    | —             | high           | low    | 7      | name.com         |
+| easy.international      | available | $14.99    | $41.99        | high           | medium | 4      | name.com         |
+| bce.international       | available | $14.99    | —             | medium         | low    | 3      | name.com         |
+| chip.international      | resell    | $14.99    | $41.99        | high           | low    | 4      | Sav.com, LLC     |
+| bug.international       | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo         |
+| BJP.international       | available | $14.99    | —             | medium         | low    | 3      | name.com         |
+| bye.international       | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo         |
+| toe.international       | available | $14.99    | —             | medium         | low    | 3      | name.com         |
+| bird.international      | resell    | —         | —             | high           | medium | 4      | Sav.com, LLC - 6 |
+| dew.international       | premium   | $78.54    | $78.54        | medium         | low    | 3      | namesilo         |
+| beat.international      | available | $14.99    | —             | high           | low    | 4      | name.com         |
+| call.international      | resell    | —         | —             | high           | low    | 4      | Name.com, Inc.   |
+| due.international       | premium   | $123.75   | —             | high           | low    | 3      | name.com         |
+| belt.international      | available | $14.99    | —             | high           | low    | 4      | name.com         |
+| fast.international      | resell    | —         | —             | high           | medium | 4      | Spaceship, Inc.  |
+| gal.international       | premium   | $38.94    | $38.94        | medium         | low    | 3      | namesilo         |
+| bill.international      | available | $14.99    | —             | high           | low    | 4      | name.com         |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -105,27 +105,27 @@ If this sample already feels useful, Unique Domains is where the exact search be
 
 ## 🧱 Field summary
 
-- `domain` — Fully qualified domain name.
-- `status` — Current acquisition state for the domain in the public extract.
-- `purchase_price` — Visible purchase price when available.
-- `renewal_price` — Visible renewal price when available.
-- `attractiveness` — Composite naming score used as a decision-support signal.
-- `demand` — Relative buyer-pressure score when available.
-- `length` — Character count without the TLD.
-- `registrar` — Registrar name when known.
-- `created_at` — Creation timestamp when known.
-- `expires_at` — Expiry timestamp when known.
+- `domain`, Fully qualified domain name.
+- `status`, Current acquisition state for the domain in the public extract.
+- `purchase_price`, Visible purchase price when available.
+- `renewal_price`, Visible renewal price when available.
+- `attractiveness`, Public composite naming band used as a decision-support signal.
+- `demand`, Public buyer-pressure band when available.
+- `length`, Character count without the TLD.
+- `registrar`, Registrar name when known.
+- `created_at`, Creation timestamp when known.
+- `expires_at`, Expiry timestamp when known.
 
 See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
 ## ⚠️ Methodology and caveats
 
-This selection is defined by a single trait: every domain is a one-word name on .international. That creates a broad mix, from generic words such as emoji.international and jewels.international to more ambiguous terms such as barup.international. For founders, the main question is whether the word is clear, memorable, and credible with a global extension. For investors, the key test is whether the ask leaves room for a sensible spread after renewal costs and resale friction. Be more selective with names that resemble major brands, and favor words that are easy to say, easy to spell, and commercially legible at a glance.
+This list of domains covers 11,220 one-word names registered under .international, a global-facing extension used for cross-border brands, services, and community projects. Names range from action verbs like useit and comeonline to concrete nouns like movies, flaxseed, and half, giving founders a wide pool of ownable, easy-to-say options. With a median asking price near $18.55, most of these domains remain inexpensive to acquire, though renewal costs for .international can run higher than mainstream TLDs — a detail worth checking before committing. Investors scanning this set can look for short, dictionary-based names with broad appeal, since brandability tends to drive resale demand more than extension recognition alone.
 
-- All results are one-word domains on .international
-- Median ask across this selection is 18.21
-- Clear generic words usually carry broader appeal
-- Avoid obvious trademark conflicts like brand matches
+- 11,220 one-word .international domains in this selection
+- Median asking price near $18.55 — budget-friendly to register
+- Includes short verbs, nouns & phrases: useit, movies, half, out
+- Check renewal pricing for .international before buying
 
 See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .INTERNATIONAL One-Word Domains*. Version 2026-05-27. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .INTERNATIONAL One-Word Domains*. Version 2026-07-07. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
