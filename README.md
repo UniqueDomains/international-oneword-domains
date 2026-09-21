@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .international one-word dom
 
 **Public extract:** 1,000 rows · **Live catalog:** 27,033 domains · **Median ask:** $12.84 · **High-demand under $2,500:** 1
 
-**Last updated:** 2026-09-20
+**Last updated:** 2026-09-21
 **Canonical page:** `https://unique.domains/domains/tld/international`
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain                  | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                  |
-| ----------------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | -------------------------- |
-| christmas.international | premium   | $118.80   | $118.80       | high           | low    | 9      | namesilo                   |
-| one.international       | resell    | —         | —             | high           | medium | 3      | Spaceship, Inc.            |
-| nothing.international   | available | $14.99    | —             | high           | low    | 7      | name.com                   |
-| easy.international      | available | $14.99    | $41.99        | high           | medium | 4      | name.com                   |
-| soft.international      | resell    | —         | —             | high           | low    | 4      | Dynadot Inc                |
-| special.international   | premium   | $123.75   | —             | high           | low    | 7      | name.com                   |
-| bce.international       | available | $14.99    | —             | medium         | low    | 3      | name.com                   |
-| chip.international      | resell    | $14.99    | $41.99        | high           | low    | 4      | Sav.com, LLC               |
-| bug.international       | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                   |
-| bjp.international       | available | $14.99    | —             | medium         | low    | 3      | name.com                   |
-| bye.international       | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                   |
-| toe.international       | available | $14.99    | —             | medium         | low    | 3      | name.com                   |
-| bird.international      | resell    | —         | —             | high           | medium | 4      | Sav.com, LLC - 6           |
-| dew.international       | premium   | $78.54    | $78.54        | medium         | low    | 3      | namesilo                   |
-| beat.international      | available | $14.99    | —             | high           | low    | 4      | name.com                   |
-| call.international      | resell    | —         | —             | high           | low    | 4      | Name.com, Inc.             |
-| due.international       | premium   | $123.75   | —             | high           | low    | 3      | name.com                   |
-| belt.international      | available | $14.99    | —             | high           | low    | 4      | name.com                   |
-| hill.international      | resell    | —         | —             | medium         | low    | 4      | Squarespace Domains II LLC |
-| gal.international       | premium   | $38.94    | $38.94        | medium         | low    | 3      | namesilo                   |
+| domain             | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                  |
+| ------------------ | --------- | --------- | ------------- | -------------- | ------ | ------ | -------------------------- |
+| bce.international  | available | $14.99    | —             | medium         | low    | 3      | name.com                   |
+| chip.international | resell    | $14.99    | $41.99        | high           | low    | 4      | Sav.com, LLC               |
+| bug.international  | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                   |
+| bjp.international  | available | $14.99    | —             | medium         | low    | 3      | name.com                   |
+| bird.international | resell    | —         | —             | high           | medium | 4      | Sav.com, LLC - 6           |
+| bye.international  | premium   | $78.54    | $78.54        | high           | low    | 3      | namesilo                   |
+| toe.international  | available | $14.99    | —             | medium         | low    | 3      | name.com                   |
+| call.international | resell    | —         | —             | high           | low    | 4      | Name.com, Inc.             |
+| dew.international  | premium   | $78.54    | $78.54        | medium         | low    | 3      | namesilo                   |
+| beat.international | available | $14.99    | —             | high           | low    | 4      | name.com                   |
+| hill.international | resell    | —         | —             | medium         | low    | 4      | Squarespace Domains II LLC |
+| due.international  | premium   | $123.75   | —             | high           | low    | 3      | name.com                   |
+| belt.international | available | $14.99    | —             | high           | low    | 4      | name.com                   |
+| keen.international | resell    | —         | —             | medium         | low    | 4      | Dynadot Inc                |
+| gal.international  | premium   | $38.94    | $38.94        | medium         | low    | 3      | namesilo                   |
+| bill.international | available | $12.99    | $31.49        | low            | low    | 4      | namesilo                   |
+| mall.international | resell    | —         | —             | high           | low    | 4      | GoDaddy.com, LLC           |
+| idk.international  | premium   | $78.54    | $78.54        | medium         | low    | 3      | namesilo                   |
+| boot.international | available | $14.99    | —             | high           | low    | 4      | name.com                   |
+| soft.international | resell    | —         | —             | high           | low    | 4      | Dynadot Inc                |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -144,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .INTERNATIONAL One-Word Domains*. Version 2026-09-20. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .INTERNATIONAL One-Word Domains*. Version 2026-09-21. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
